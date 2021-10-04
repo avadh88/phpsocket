@@ -9,8 +9,14 @@
     ],
     "require": {},
     "autoload":{
-	"psr-4":{
-	    "ebl\\":"src/"
-	}	
-    }
+        "psr-4":{
+            "ebl\\":"src/"
+        }	
+    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "git@github.com:avadh88/phpsocket.git"
+        }
+    ]
 }
