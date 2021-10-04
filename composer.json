@@ -1,0 +1,16 @@
+{
+    "name": "ebl/tcpsocket",
+    "description": "connect with embedded device on tcpsocket connection",
+    "authors": [
+        {
+            "name": "avadh",
+            "email": "avadh.patel7@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+	"psr-4":{
+	    "ebl\\":"src/"
+	}	
+    }
+}
